@@ -6,8 +6,13 @@
   "scripts": {
     "test": "test"
   },
+  "keywords": [
+    "react-hooks",
+    "hooks",
+    "useAsync"
+  ],
   "author": "Bulat Zaliaev",
-  "license": "ISC",
+  "license": "MIT",
   "peerDependencies": {
     "react": "^16.13.1"
   }

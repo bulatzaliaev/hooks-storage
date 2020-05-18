@@ -48,7 +48,22 @@ function useOnClickOutside(ref, handler) {
     );
 }
 
+function useMemoCompare(value, compare) {
+    const previousRef = useRef();
+    const previous = previousRef.current;
+    const isEqual = compare(previous, value);
+
+    useEffect(() => {
+        if (!isEqual) {
+            previousRef.current = value;
+        }
+    });
+
+    return isEqual ? previous : value;
+}
+
 module.exports = {
     useAsync,
     useOnClickOutside,
+    useMemoCompare,
 };

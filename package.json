@@ -1,6 +1,6 @@
 {
   "name": "hooks-storage",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "React hooks storage",
   "main": "index.js",
   "scripts": {

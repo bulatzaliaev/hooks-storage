@@ -1,7 +1,7 @@
 {
   "name": "hooks-storage",
   "version": "0.0.4",
-  "description": "React hooks storage",
+  "description": "React hooks library",
   "main": "index.js",
   "repository": {
     "type": "git",

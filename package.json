@@ -1,15 +1,23 @@
 {
   "name": "hooks-storage",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "React hooks storage",
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/orphenxy/hooks-storage.git"
+  },
   "scripts": {
     "test": "test"
   },
   "keywords": [
+    "react",
     "react-hooks",
     "hooks",
-    "useAsync"
+    "useAsync",
+    "toolkit",
+    "utilities",
+    "composition"
   ],
   "author": "Bulat Zaliaev",
   "license": "MIT",

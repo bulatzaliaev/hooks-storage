@@ -1,5 +1,6 @@
-# hooks-storage
+# hooks-storage v0.0.4
 React hooks library:
-1. useAsync - react hook to use async functions;
-2. useOnClickOutside - react hook to handle click out side of the element;
-3. useMemoCompare;
+- useAsync - react hook to use async functions;
+- useOnClickOutside - react hook to handle click out side of the element;
+- useMemoCompare;
+- useLocalStorage - sync state to local storage so that it persists through a page refresh;

@@ -7,5 +7,6 @@ React hooks library:
 - useOnClickOutside - react hook to handle click out side of the element;
 - useMemoCompare;
 - useLocalStorage - sync state to local storage so that it persists through a page refresh;
+- useKeyPress - key press hook;
 
 [**Full API documentation**](API.md) - Learn about each helper

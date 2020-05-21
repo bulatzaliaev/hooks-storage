@@ -28,7 +28,7 @@ import { useLocalStorage } from "hooks-storage";
 // Similar to useState but first arg is key to the value in local storage.
 const [storedValue, setValue] = useLocalStorage(key, value);
 ```
-### useLocalStorage
+### useKeyPress
 ```js
 import { useKeyPress } from "hooks-storage";
 // Call hook for each key that we'd like to monitor

@@ -7,10 +7,10 @@ export default {
     ...Object.keys(pkg.devDependencies || {}),
     ...Object.keys(pkg.peerDependencies || {}),
   ],
-  input: 'src/main.ts',
+  input: 'src/index.ts',
   output: {
-    file: 'dist/bundle.js',
-    format: 'iife'
+    file: pkg.main,
+    format: 'cjs',
   },
   plugins: [typescript(), uglify(),],
 };

@@ -1,6 +1,7 @@
-import { useEffect, useState, useCallback } from 'react';
+import { useEffect, useState, useCallback } from "react";
+import { returningPromise } from '../utils';
 
-export default function useAsync(asyncFunction, immediate = true) {
+export default function useAsync(asyncFunction: returningPromise, immediate: boolean = true): Object {
     const [pending, setPending] = useState(false);
     const [value, setValue] = useState(null);
     const [error, setError] = useState(null);

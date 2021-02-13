@@ -3,3 +3,4 @@ export { default as useKeyPress } from './hooks/useKeyPress';
 export { default as useOnClickOutside } from './hooks/useOnClickOutside';
 export { default as useLocalStorage } from './hooks/useLocalStorage';
 export { default as useMemoCompare } from './hooks/useMemoCompare';
+export { default as useWorker } from './hooks/useWorker';
